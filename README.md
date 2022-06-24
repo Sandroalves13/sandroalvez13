@@ -1,4 +1,20 @@
-# sandroalvez13
+
+O sistema tem como base três sensores e dois atuadores que estão denominados S1 e S2, esse são responsáveis para acionar o braço mecânico, que está para verificar as peças, Grandes (Alta) e pequenas (baixa), assim atuando como um separador de peças
+•	S1 – Peças correta, deste que esta esteja no seu local encontrando S2
+•	S2 – Liga o Soprador para descarte das peças
+
+
+Modo construtivo do sistema
+
+
+•	Esteira inicia com o comando Liga
+•	Sopradores são acionados para descarte das peças
+•	Atuadores S1 e S2 fazem o filtro das peças
+•	Espera o tempo e retorna o inicio 
+
+segue o códif para verificar conforme descrição acima
+
+
 aplicativo desenvolvido via labview, para controle de peças
 const int Bliga=2;
 const int Bdesligado=4;
